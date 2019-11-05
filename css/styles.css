@@ -1,0 +1,171 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1{
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #f8f8f8;
+  padding: 50px 0 25px 0;
+}
+h3{
+  font-size: 1.5rem;
+  font-family: "Montserrat-bold";
+  font-weight: bold;
+}
+h2{
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+p{
+  font-weight: bold;
+
+}
+
+#footer{
+  background-color: #fff;
+  padding: 5% 25%;
+
+}
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+#testimonials{
+
+  color: #f8f8f8;
+  background-color: #cf455c;
+}
+#press{
+  background-color: #cf455c;
+
+}
+#pricing{
+  padding: 100px;
+}
+#title{
+  background-color: #cf455c;
+}
+
+/* title */
+.title-text{
+  text-align: left;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+  padding-bottom: 7%;
+}
+.pricing-card{
+  padding-top: 2%;
+}
+.navbar-brand{
+  font-size: 40px;
+}
+.nav-link{
+  cursor: pointer;
+}
+.image{
+  transform: rotate(25deg);
+  padding-top: 70px;
+  width: 50%;
+  position: absolute;
+  right: 20%;
+}
+@media (max-width:1000px) {
+  .image{
+    position: static;
+    width: 50%;
+    padding-top: 50px;
+    transform: none;
+  }
+  h1{
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #f8f8f8;
+    padding: 50px 0 25px 0;
+
+  }
+.title-text{
+    text-align: center;
+  }
+}
+.nav-item{
+  padding: 0 18px;
+}
+
+.navbar{
+  padding: 0;
+}
+.download-button{
+  margin: 0 2% 0 0;
+  position: static;
+
+}
+
+.options{
+
+  padding: 50px;
+}
+.decoration{
+  color: #8f8f8f;
+}
+.icon{
+  color:  #ef8172;
+  padding-bottom: 10px;
+}
+.icon:hover{
+  color:  #cf455c;
+}
+
+.testimonial-text{
+  font-weight: 900;
+  font-size: 3rem;
+
+  line-height: 1.5;
+  padding: 0 100px;
+}
+.testimonial-image{
+  border-radius: 50%;
+  width: 10%;
+  margin: 20px;
+}
+
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+
+
+.last-footer{
+  background-color:  #cf455c;
+  padding: 5% 25%;
+
+}
+.last-line{
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #f8f8f8;
+}
+.download-button-last{
+margin:  5% 2%;
+}
+
+.icons{
+  margin: 2%;
+  cursor: pointer;
+}
+.yoyo{
+  color:  #8f8f8f;
+}
